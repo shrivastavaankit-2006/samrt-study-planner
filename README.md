@@ -2,6 +2,8 @@
 
 > **Plan smart. Study better. Stress less.**
 
+**🔴 Live Demo:** [https://smart-study-planner-90246.web.app/](https://smart-study-planner-90246.web.app/)
+
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://smart-study-planner-90246.web.app/)
 ![React](https://img.shields.io/badge/React-18.3-blue?logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.6-blue?logo=typescript)
@@ -112,6 +114,11 @@ smart-study-planner/
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 👤 Author
+
+**Ankit Shrivastava**
+- GitHub: [@shrivastavaankit-2006](https://github.com/shrivastavaankit-2006)
 
 ## 📄 License
 
