@@ -48,14 +48,18 @@ PLANNING RULES:
 2. Respect individual subject daily hour limits if provided.
 3. Ensure regular revision.
 4. Keep the schedule balanced.
-5. Provide specific topics to study for each session if possible.
+5. Do NOT include 0-hour sessions or days with no study. Only output active study sessions.
 
 OUTPUT FORMAT:
 Provide the plan ONLY as a Markdown Table with the following columns:
-| Date | Day | Subject & Topic | Hours |
+| Date | Day | Subject | Hours |
 
 Example Row:
-| 2024-12-19 | Thursday | Math: Algebra Practice | 2h |
+| 2024-12-19 | Thursday | Math | 2h |
+
+STRICT CONTENT RULES:
+- Subject column: Subject Name ONLY (e.g., "Math"). NO topics, NO chapters, NO activities.
+- Do NOT output rows where Hours is "0h" or "No Study".
 
 FINAL OUTPUT REQUIREMENT:
 Return ONLY the markdown table. No intros or outros.`;
